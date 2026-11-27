@@ -81,7 +81,7 @@ fun Password() {
 fun RegisterButton() {
     Button(
         onClick = { /* Registrar nuevo usuario */ },
-        modifier = Modifier.width(100.dp)
+        modifier = Modifier.width(110.dp)
     ) {
         Text("Register")
     }
@@ -91,7 +91,7 @@ fun RegisterButton() {
 fun LoginButton(userName: String, goToLogin: (String) -> Unit) {
     Button(
         onClick = {goToLogin(userName)},
-        modifier = Modifier.width(100.dp)
+        modifier = Modifier.width(110.dp)
     ) {
         Text("Login")
     }
